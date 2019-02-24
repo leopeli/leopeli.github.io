@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:200,500');
+
+:root {
+  /* variables */
+  --font-standart: 'Encode Sans', sans-serif;
+
+  /* root value */
+  font-size: 20px;
+}
+
+* {
+  font-family: var(--font-standart);
+}
+
+.text-standart {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+.page {
+  background-image: url('../src/images/bg.png');
+  overflow: hidden;
+}
+
+/* HEADER */
+.header {
+  padding: 22px 0 16px;
+  border-bottom: 2px solid #D8D8D8;
+}
+.header__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main */
+
+.main__title {
+  font-size: 2rem;
+}
+
+/* Advertising */
+
+.advertising__text {
+  line-height: 2rem;
+  text-align: left;
+}
+
+.advertising__text:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.advertising__text:nth-child(3) {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.advertising__text:last-child{
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.advertising__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.advertising__list-item {
+  background: url('../src/images/marcador.png') no-repeat left top;
+  padding-left: 40px;
+  margin-bottom: 1.3rem; 
+}
+
+.advertising__img {
+  max-width: 100%;
+}
+
+/* Formulário */
+
+.form__title {
+  color: #28377A;
+  font-weight: bold;
+}
+
+.form__text {
+  font-size: 15px
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  border: none;
+  text-align: center;
+}
+
+select {
+  border: none;
+  color: #6c757d;
+  width: 100%;
+  text-align-last: center;
+}
+
+.form__button {
+  background-color: #28377A;
+  color: #fff;
+}
+
+.form__button:hover {
+  color: #28377A;
+  background-color: #fff;
+  border: 1px solid #28377A;
+}
+
+#telefone {
+  border-bottom: 1px solid #9098a9;
+  padding-bottom: 10px; 
+}
+
+.how-do__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.know-more {
+  background-color: #ececec;
+  padding: 20px 0 20px 0;
+}
+
+.know-more__subtitle {
+  font-size: 2em;
+}
+
+.footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.social__logo {
+  width: 1.75em;
+}

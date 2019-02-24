@@ -1,0 +1,11 @@
+.js-scroll {
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: all ease-out .5s;
+}
+
+.fade-left {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all ease-in .5s;
+}

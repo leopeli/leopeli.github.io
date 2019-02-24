@@ -1,0 +1,29 @@
+@media only screen and (max-width: 766px) {
+  .advertising__product {
+    flex-direction: column-reverse;
+  }
+  
+  .advertising__text {
+    line-height: 2rem;
+    text-align: left;
+  }
+  
+  .advertising__text:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .advertising__text:nth-child(3) {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .advertising__text:last-child {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+  
+  #badge__quarenta {
+    margin-bottom: 20px;
+  }
+}
